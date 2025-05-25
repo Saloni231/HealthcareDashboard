@@ -2,11 +2,11 @@ import Classes from "./Header.module.css";
 import SearchBar from "./SearchBar/SearchBar";
 import UserAction from "./UserAction/UserAction";
 
-function Header({ Headerclass }) {
+function Header() {
   return (
-    <div className={`${Classes.Header} ${Headerclass}`}>
-      <SearchBar searchClass={Classes.searchClass} />
-      <UserAction userClass={Classes.userClass} />
+    <div className={Classes.Header}>
+      <SearchBar />
+      <UserAction />
     </div>
   );
 }

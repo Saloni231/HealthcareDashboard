@@ -1,0 +1,91 @@
+.ScanningDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Heading {
+    padding-left: 10px;
+    font-size: larger;
+    color: #1b1f51;
+    font-weight: bold;
+}
+
+.dropdown {
+    font-size: small;
+    color: #38349f;
+    display: flex;
+    align-items: center;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ScanningImage {
+    width: 50%;
+    margin: 10px 50px;
+    background-color: #e0e6ed;
+    border-radius: 20px;
+}
+
+.DetailsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Details {
+    background-color: #e0e6ed;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.DetailName {
+    display: flex;
+    align-items: center;
+}
+
+.ProcessName {
+    color: #0c0568;
+    font-weight: 600;
+}
+
+.DetailImage {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.DetailDate {
+    font-size: 12px;
+    color: #98999b;
+    margin: 10px 5px;
+}
+
+
+@media (max-width: 900px) {
+
+    .Details {
+        width: 40%;
+    }
+
+    .DetailsContainer {
+        flex-direction: row;
+    }
+
+    .ScanningImage {
+        height: 50%;
+        align-self: center;
+    }
+
+    .Container {
+        flex-direction: column;
+    }
+}

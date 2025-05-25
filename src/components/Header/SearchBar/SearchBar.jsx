@@ -1,12 +1,12 @@
 import classes from "./SearchBar.module.css";
 import { Bell, Search } from "lucide-react";
 
-const SearchBar = ({ searchClass }) => {
+const SearchBar = () => {
   return (
-    <div className={`${classes.SearchBar} ${searchClass}`}>
-      <Search size={30} color="#0c0568" />
+    <div className={classes.SearchBar}>
+      <Search size={20} color="#0c0568" />
       <input className={classes.searchInput} placeholder="Search" />
-      <Bell size={30} color="#0c0568" fill="#0c0568" className={classes.bell} />
+      <Bell size={20} color="#0c0568" fill="#0c0568" className={classes.bell} />
     </div>
   );
 };

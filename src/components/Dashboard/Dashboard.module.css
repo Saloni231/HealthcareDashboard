@@ -1,4 +1,6 @@
 .Dashboard {
     display: flex;
-    width: 40%;
+    flex-direction: column;
+    margin: 5%;
+    width: 80%;
 }

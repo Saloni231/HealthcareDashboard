@@ -3,14 +3,14 @@ import IconPallet from "../IconPallet/IconPallet";
 import { Plus } from "lucide-react";
 import { user } from "../../../assets";
 
-function UserAction({ userClass }) {
+function UserAction() {
   return (
-    <div className={`${classes.UserAction} ${userClass}`}>
+    <div className={classes.UserAction}>
       <IconPallet bg={true}>
         <img src={user} alt="user" className={classes.userimg} />
       </IconPallet>
       <IconPallet>
-        <Plus color="#ebeef1" size={40} />
+        <Plus color="#ebeef1" size={30} />
       </IconPallet>
     </div>
   );
