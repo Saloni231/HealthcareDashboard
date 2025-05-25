@@ -1,0 +1,30 @@
+.SearchBar {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d2d0f7;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.searchInput {
+    margin: 0px 8px;
+    border: none;
+    background-color: inherit;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.bell {
+    margin-left: auto;
+}
+
+@media (max-width: 550px) {
+    .searchInput {
+        display: none;
+    }
+
+    .bell {
+        display: none;
+    }
+}

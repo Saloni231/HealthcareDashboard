@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: #dce7f3;
+}
+
+.App {
+  margin: 1%;
+  padding: 1%;
+  background-color: #ebeef1;
+  border-radius: 50px;
+  display: flex;
+}
+
+.mobileVisible {
+  display: none;
+}
+
+.desktopVisible {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .mobileVisible {
+    display: flex;
+  }
+
+  .desktopVisible {
+    display: none;
+  }
+}

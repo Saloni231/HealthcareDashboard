@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from "./components/Dashboard/Dashboard";
+import Header from "./components/Header/Header";
+import SideNavbar from "./components/SideNavbar/SideNavbar";
+import classes from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.App}>
+      <SideNavbar />
+      <Header Headerclass={classes.mobileVisible} />
+      <Dashboard dashboardClass={classes.desktopVisible} />
     </div>
   );
 }
