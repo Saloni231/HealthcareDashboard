@@ -3,6 +3,7 @@ import { ScanningDetailsData } from "../../../Data/ScanningDetails";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import human from "../../../assets/Human.png";
 import { ChevronDown } from "lucide-react";
+import Scanner from "../Scanner/Scanner";
 
 const ScanningDetails = () => {
   return (
@@ -15,6 +16,7 @@ const ScanningDetails = () => {
         </div>
       </div>
       <div className={classes.Container}>
+        <Scanner />
         <img src={human} alt="human" className={classes.ScanningImage} />
         <div className={classes.DetailsContainer}>
           {ScanningDetailsData.map((data) => (

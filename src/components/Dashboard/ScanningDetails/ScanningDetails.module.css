@@ -26,11 +26,14 @@
 .Container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    position: relative;
 }
 
 .ScanningImage {
-    width: 50%;
-    margin: 10px 50px;
+    width: 100%;
+    max-height: 47vh;
+    margin: 10px 20px;
     background-color: #e0e6ed;
     border-radius: 20px;
 }
@@ -70,7 +73,8 @@
 }
 
 
-@media (max-width: 900px) {
+
+@media (max-width: 1200px) {
 
     .Details {
         width: 40%;
@@ -82,10 +86,16 @@
 
     .ScanningImage {
         height: 50%;
+        width: 50%;
         align-self: center;
     }
 
     .Container {
         flex-direction: column;
+        justify-content: start;
+    }
+
+    .Heading {
+        padding-left: 30px;
     }
 }

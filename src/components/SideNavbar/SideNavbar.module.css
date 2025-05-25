@@ -23,4 +23,6 @@
 
 .Settings {
     padding: 20px;
+    position: absolute;
+    bottom: 0;
 }
