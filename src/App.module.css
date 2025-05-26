@@ -22,6 +22,11 @@ body {
 }
 
 @media (max-width: 1200px) {
+
+  .App {
+    gap: 10px;
+  }
+
   .mobileVisible {
     display: flex;
     flex-direction: column;
@@ -29,6 +34,8 @@ body {
     background-color: #e0e6ed;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    justify-content: space-between;
+    gap: 10px;
   }
 
   .desktopVisible {
