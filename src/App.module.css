@@ -11,21 +11,24 @@ body {
   display: flex;
 }
 
-
 .mobileVisible {
   display: none;
 }
 
 .desktopVisible {
   display: flex;
-  width: 50%;
+  justify-content: space-between;
+  flex: 1;
 }
 
 @media (max-width: 1200px) {
-
   .mobileVisible {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    background-color: #e0e6ed;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
   }
 
   .desktopVisible {

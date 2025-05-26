@@ -40,6 +40,6 @@ export const tools = [
 ];
 export const setting = {
   id: 8,
-  title: "Settings",
+  title: "Setting",
   icon: "settings",
 };

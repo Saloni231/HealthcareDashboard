@@ -1,0 +1,28 @@
+.sideNavbar {
+  position: relative;
+  background-color: #e0e6ed;
+  padding: 3%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: max-content;
+}
+
+.subHeading {
+  color: #c8cacb;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.category {
+  padding: 20px;
+}
+
+.settings {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}

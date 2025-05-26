@@ -1,0 +1,57 @@
+.dayBox {
+    padding: 10px 10px 0px 10px;
+}
+
+.dayBox:first-child {
+    padding-left: 0px;
+}
+
+.dayBox:nth-child(2) {
+    background-color: #D3D3F3;
+    border-radius: 20px;
+}
+
+.dayBox:last-child div {
+    color: #8f979a;
+}
+
+.dayBox:last-child {
+    margin-right: 0px;
+}
+
+.day {
+    color: #0c0568;
+    font-weight: 400;
+    font-size: small;
+    text-align: center;
+    margin: 10px;
+}
+
+.date {
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+    color: #0c0568;
+    font-weight: 600;
+}
+
+.time {
+    text-align: center;
+    margin: 10px;
+    font-size: small;
+    color: #0c0568;
+    font-weight: 400;
+    padding: 10px 10px 10px 4px
+}
+
+.circle {
+    display: ruby-text !important;
+    justify-self: center !important;
+    margin-left: 8px;
+}
+
+/* .dayBox:nth-child(2) .time div:nth-child(2) {
+    color: white;
+    background-color: #0c0568;
+    border-radius: 10px;
+} */

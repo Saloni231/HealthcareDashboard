@@ -1,9 +1,11 @@
-import Dashboard from "./components/Dashboard/Dashboard";
-import Header from "./components/Header/Header";
-import SideNavbar from "./components/SideNavbar/SideNavbar";
+import {
+  Header,
+  ScanningDetails,
+  AppointmentDetails,
+  Activity,
+} from "./components/molecules";
+import { Dashboard, Appointment, SideNavbar } from "./components/organisms";
 import classes from "./App.module.css";
-import ScanningDetails from "./components/Dashboard/ScanningDetails/ScanningDetails";
-import Appointment from "./components/Appointment/Appointment";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <div className={classes.mobileVisible}>
         <Header />
         <ScanningDetails />
+        <Activity />
+        <AppointmentDetails />
       </div>
       <div className={classes.desktopVisible}>
         <Dashboard />

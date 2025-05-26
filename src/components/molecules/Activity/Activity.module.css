@@ -1,0 +1,35 @@
+.activity {
+  width: max-content;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #e0e6ed;
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.heading {
+  color: #2d2f41;
+  font-size: large;
+  font-weight: bold;
+}
+
+.subHeading {
+  color: #858687;
+}
+
+.days {
+  display: flex;
+  margin: 10px 50px;
+}
+
+.day {
+  margin: 5px;
+  padding: 0px 27px;
+  color: #858687;
+  font-size: medium;
+}
