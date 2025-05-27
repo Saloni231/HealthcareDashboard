@@ -19,5 +19,5 @@ export {
   calendarArrows,
   daysData,
   activity,
-  days
+  days,
 };

@@ -1,5 +1,5 @@
-import classes from "./SearchBar.module.css";
 import { Bell, Search } from "lucide-react";
+import classes from "./SearchBar.module.css";
 
 const SearchBar = () => {
   return (

@@ -22,7 +22,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-
   .App {
     gap: 10px;
   }
@@ -31,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #e0e6ed;
+    background-color: whitesmoke;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     justify-content: space-between;

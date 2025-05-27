@@ -1,17 +1,17 @@
 .navItem {
-    color: #98999b;
-    display: flex;
-    align-items: center;
+  color: #98999b;
+  display: flex;
+  align-items: center;
 }
 
 .title {
-    padding-left: 10px;
-    display: inline;
-    font-size: small;
+  padding-left: 10px;
+  display: inline;
+  font-size: small;
 }
 
 .selected {
-    color: #0c0568;
-    font-weight: 600;
-    font-size: medium;
+  color: #0c0568;
+  font-weight: 600;
+  font-size: medium;
 }

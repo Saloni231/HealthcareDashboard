@@ -1,73 +1,72 @@
 .heart {
-    background-color: #342e9b;
-    color: #dadcfe;
-    font-size: medium;
-    padding: 5px;
-    border-radius: 5px;
-    width: max-content;
-    position: absolute;
-    top: 27%;
-    left: 45%;
+  background-color: #342e9b;
+  color: #dadcfe;
+  font-size: medium;
+  padding: 5px;
+  border-radius: 5px;
+  width: max-content;
+  position: absolute;
+  top: 27%;
+  left: 45%;
 }
 
 .leg {
-    background-color: #02e2f0;
-    color: #26228f;
-    font-size: medium;
-    padding: 5px;
-    border-radius: 5px;
-    width: max-content;
-    position: absolute;
-    bottom: 25%;
-    left: 10%;
+  background-color: #02e2f0;
+  color: #26228f;
+  font-size: medium;
+  padding: 5px;
+  border-radius: 5px;
+  width: max-content;
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
 }
 
 .zoomIn {
-    padding: 5px;
-    position: absolute;
-    top: 3%;
-    left: 70%;
+  padding: 5px;
+  position: absolute;
+  top: 3%;
+  left: 70%;
 }
 
 .scannerHeart {
-    padding: 5px;
-    position: absolute;
-    top: 25%;
-    left: 38%;
+  padding: 5px;
+  position: absolute;
+  top: 25%;
+  left: 38%;
 }
 
 .scannerLeg {
-    padding: 5px;
-    position: absolute;
-    bottom: 22%;
-    left: 25%;
+  padding: 5px;
+  position: absolute;
+  bottom: 22%;
+  left: 25%;
 }
 
 @media (max-width: 1200px) {
-    .heart {
-        top: 22%;
-        right: 0;
-        left: 65%;
-        transform: translateX(-50%);
-    }
+  .heart {
+    top: 22%;
+    right: 0;
+    left: 65%;
+    transform: translateX(-50%);
+  }
 
-    .leg {
-        bottom: 40%;
-        left: 30%;
-        transform: translateX(-50%);
-    }
+  .leg {
+    bottom: 40%;
+    left: 30%;
+    transform: translateX(-50%);
+  }
 
-    .scannerHeart {
-        top: 18%;
-        right: 0;
-        left: 54%;
-        transform: translateX(-50%);
-    }
+  .scannerHeart {
+    top: 18%;
+    right: 0;
+    left: 54%;
+    transform: translateX(-50%);
+  }
 
-    .scannerLeg {
-        bottom: 38%;
-        left: 43%;
-        transform: translateX(-50%);
-    }
-
+  .scannerLeg {
+    bottom: 38%;
+    left: 43%;
+    transform: translateX(-50%);
+  }
 }

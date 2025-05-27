@@ -1,15 +1,15 @@
+import PropTypes from "prop-types";
 import { DailyProgress } from "../../molecules";
-import { days } from "../../../Data";
 import classes from "./Activity.module.css";
 
-const Activity = () => {
+const Activity = ({ activity, days }) => {
   return (
     <div className={classes.activity}>
       <div className={classes.header}>
         <div className={classes.heading}>Activity</div>
         <div className={classes.subHeading}>3 appointments on this week</div>
       </div>
-      <DailyProgress />
+      <DailyProgress activity={activity} />
       <div className={classes.days}>
         {days.map((day) => (
           <div className={classes.day}>{day}</div>
@@ -20,3 +20,13 @@ const Activity = () => {
 };
 
 export default Activity;
+
+Activity.propTypes = {
+  activity: PropTypes.array,
+  days: PropTypes.array,
+};
+
+Activity.defaultProps = {
+  activity: [],
+  days: [],
+};

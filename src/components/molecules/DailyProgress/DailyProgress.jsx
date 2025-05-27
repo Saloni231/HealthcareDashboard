@@ -1,8 +1,8 @@
+import PropTypes from "prop-types";
 import { VerticalProgressBar } from "../../atoms";
-import { activity } from "../../../Data";
 import classes from "./DailyProgress.module.css";
 
-const DailyProgress = () => {
+const DailyProgress = ({ activity }) => {
   return (
     <div className={classes.dailyProgress}>
       {activity.map((item) => {
@@ -36,3 +36,11 @@ const DailyProgress = () => {
 };
 
 export default DailyProgress;
+
+DailyProgress.propTypes = {
+  activity: PropTypes.array,
+};
+
+DailyProgress.defaultProps = {
+  activity: [],
+};

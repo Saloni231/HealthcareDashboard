@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classes from "./ProgressBar.module.css";
 
 const ProgressBar = ({ progress }) => {
@@ -14,3 +15,11 @@ const ProgressBar = ({ progress }) => {
 };
 
 export default ProgressBar;
+
+ProgressBar.propTypes = {
+  progress: PropTypes.object,
+};
+
+ProgressBar.defaultProps = {
+  progress: {},
+};

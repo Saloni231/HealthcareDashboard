@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classes from "./IconPallet.module.css";
 
 const IconPallet = ({ children, bg }) => {
@@ -11,3 +12,12 @@ const IconPallet = ({ children, bg }) => {
 };
 
 export default IconPallet;
+IconPallet.propTypes = {
+  bg: PropTypes.bool,
+  children: PropTypes.node,
+};
+
+IconPallet.defaultProps = {
+  bg: false,
+  children: {},
+};

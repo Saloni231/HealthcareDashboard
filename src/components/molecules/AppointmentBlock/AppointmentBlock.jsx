@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classes from "./AppointmentBlock.module.css";
 
 function AppointmentBlock({ item }) {
@@ -20,3 +21,11 @@ function AppointmentBlock({ item }) {
 }
 
 export default AppointmentBlock;
+
+AppointmentBlock.propTypes = {
+  item: PropTypes.object,
+};
+
+AppointmentBlock.defaultProps = {
+  item: {},
+};

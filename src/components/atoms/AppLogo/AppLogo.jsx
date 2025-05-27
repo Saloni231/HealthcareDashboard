@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classes from "./AppLogo.module.css";
 
 const AppLogo = ({ logoClass }) => {
@@ -10,3 +11,11 @@ const AppLogo = ({ logoClass }) => {
 };
 
 export default AppLogo;
+
+AppLogo.propTypes = {
+  logoClass: PropTypes.object,
+};
+
+AppLogo.defaultProps = {
+  logoClass: {},
+};

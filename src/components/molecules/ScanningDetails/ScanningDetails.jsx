@@ -1,10 +1,10 @@
+import PropTypes from "prop-types";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { ProgressBar, Scanner } from "../../atoms";
-import { ScanningDetailsData } from "../../../Data";
 import { Human } from "../../../assets";
 import classes from "./ScanningDetails.module.css";
 
-const ScanningDetails = () => {
+const ScanningDetails = ({ ScanningDetailsData }) => {
   return (
     <div className={classes.scanningDetails}>
       <div className={classes.header}>
@@ -43,3 +43,11 @@ const ScanningDetails = () => {
 };
 
 export default ScanningDetails;
+
+ScanningDetails.propTypes = {
+  ScanningDetailsData: PropTypes.array,
+};
+
+ScanningDetails.defaultProps = {
+  ScanningDetailsData: [],
+};

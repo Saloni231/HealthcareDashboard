@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { DynamicIcon } from "lucide-react/dynamic";
 import classes from "./NavItem.module.css";
 
@@ -19,3 +20,11 @@ const NavItem = ({ item }) => {
 };
 
 export default NavItem;
+
+NavItem.propTypes = {
+  item: PropTypes.object,
+};
+
+NavItem.defaultProps = {
+  item: {},
+};

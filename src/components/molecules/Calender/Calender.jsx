@@ -1,7 +1,6 @@
-import React from "react";
+import { Circle } from "lucide-react";
 import PropTypes from "prop-types";
 import classes from "./Calender.module.css";
-import { Circle } from "lucide-react";
 
 function Calendar({ item }) {
   const handleHighlight = (index) => {
